@@ -5,7 +5,7 @@ ctx.fillStyle = 'green';
 ctx.fillRect(0, 0, 300, 300);
 // マウス判定
 let mouseDown = false;
-// 最初のマウス位置
+// マウス位置
 let beforeMousePos = {};
 
 //描画の開始
@@ -17,6 +17,7 @@ function startDraw(event) {
   };
 };
 
+// 描画処理
 function Draw(event) {
   //マウスボタンが押されていれば描画
   if (mouseDown) {
