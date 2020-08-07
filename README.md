@@ -1,2 +1,2 @@
 # Canvas Test
-canvasのテスト用ディレクトリ
+canvasのテスト用リポジトリ
